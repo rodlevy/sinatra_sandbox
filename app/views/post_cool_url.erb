@@ -1,0 +1,24 @@
+Post:   <%= @post %>
+<br>
+<br>
+
+Text Area: <%= @text_area %>
+<br>
+<br>
+Your choice: <%= @radio_button%>
+<br>
+<br>
+
+Checked Box Choices:
+<%=@check_box_1%>
+ <%= @check_box_2%>
+  <%=@check_box_3%>
+
+
+<%@check_box.each {|item, value| %>
+  <%= value %>
+<%}%>  
+  <br>
+  <br>
+  Drop Down Choices:
+  <%=@mydrop_down%>
